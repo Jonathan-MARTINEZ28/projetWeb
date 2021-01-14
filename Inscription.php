@@ -1,10 +1,11 @@
 <?php
 include 'utils.inc.php';
-
+include 'modele/gestionbd.php';
 start_page('titre');
 ?>
 
 <?php
+ob_start();
 echo '
     <form action="data-processing.php" method="post">
         <label for="id">Identifiant:</label><br>
@@ -36,6 +37,8 @@ echo '
         <input type="submit" value="Inscription" name="action" id="action" />
     </form>
     <a href="Connection.php">J\'ai déjà un compte</a><br>'
+
+    add_user();
 ?>
 
 <?php

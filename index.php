@@ -1,16 +1,13 @@
 <?php
     include 'utils.inc.php';
-    start_page('VANESTARRE');
+
 ?>
 
-<style>
-    body {
-        background-color: violet;
-    }
-</style>
+
 
 <?php
-    echo '<img src="logo_large.png" alt="logo">
+    ob_start();
+    echo '
     <a href="Connection.php">Se connecter</a><br>
     <a href="Inscription.php">S\'inscrire</a><br>
     <h3>message</h3><br>
@@ -22,12 +19,12 @@
             <option value="us">trop stylé</option>
             <option value="us">swag</option>
         </select><br>
-    '
+    ';
+    $contenu = ob_get_clean();
+    require 'vues/gabarit.php';
 ?>
 
 
 
-<?php
-end_page();
-?>
+
 

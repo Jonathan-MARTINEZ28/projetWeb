@@ -1,10 +1,11 @@
 <?php
 include 'utils.inc.php';
 
-start_page('titre');
+
 ?>
 
 <?php
+ob_start();
 echo '
     <form action="data-processing.php" method="post">
         <label for="id">Identifiant:</label><br>
@@ -15,8 +16,7 @@ echo '
         <input type="password" id="pass" name="pass"/><br>
         <input type="submit" value="Connexion" name="action" id="action" />
     </form>';
+$contenu = ob_get_clean();
+require 'vues/gabarit.php'
 ?>
 
-<?php
-end_page();
-?>
