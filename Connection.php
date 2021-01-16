@@ -1,7 +1,5 @@
 <?php
-include 'utils.inc.php';
-
-
+    include 'utils.inc.php';
 ?>
 
 <?php
@@ -14,7 +12,7 @@ echo '
         <input type="text" id="mail" name="mail"/><br>
         <label for="pass">Mot de passe</label><br>
         <input type="password" id="pass" name="pass"/><br>
-        <input type="submit" value="Connexion" name="action" id="action" />
+        <input type="submit" value="Connection" name="action" id="action" />
     </form>';
 $contenu = ob_get_clean();
 require 'vues/gabarit.php'

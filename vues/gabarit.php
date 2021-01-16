@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <img src="logo_small.png" alt="logo">
+        <a href="index.php"> <img src="logo_small.png" alt="logo"> </a>
     </header>
 
     <div id="contenu">
