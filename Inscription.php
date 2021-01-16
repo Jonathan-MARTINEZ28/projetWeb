@@ -1,11 +1,6 @@
 <?php
-include 'utils.inc.php';
-
-?>
-
-<?php
-ob_start();
-echo '
+    ob_start();
+    echo '
     <form action="modele/gestionbd.php" method="post">
         <label for="pseudo">Pseudonyme</label><br>
         <input type="text" id="pseudo" name="pseudo"/><br>
@@ -25,7 +20,7 @@ echo '
     </form>
     <a href="Connection.php">J\'ai déjà un compte</a><br>';
 
-$contenu = ob_get_clean();
-require 'vues/gabarit.php';
+    $contenu = ob_get_clean();
+    require 'vues/gabarit.php';
 ?>
 

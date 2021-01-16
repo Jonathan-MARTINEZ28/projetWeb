@@ -1,11 +1,7 @@
 <?php
-    include 'utils.inc.php';
-?>
-
-<?php
 ob_start();
 echo '
-    <form action="data-processing.php" method="post">
+    <form action="modele/gestionbd.php" method="post">
         <label for="id">Identifiant:</label><br>
         <input type="text" id="id" name="id"/><br>
         <label for="mail">E-mail</label><br>

@@ -1,11 +1,4 @@
 <?php
-    include 'utils.inc.php';
-
-?>
-
-
-
-<?php
     ob_start();
     echo '
     <a href="Connection.php">Se connecter</a><br>

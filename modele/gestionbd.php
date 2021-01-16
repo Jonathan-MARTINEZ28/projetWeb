@@ -7,6 +7,7 @@ $mdp = $_POST["pass"];
 $mdp2 = $_POST["pass2"];
 $cgu = $_POST["cgu"];
 
+//conection à la base de données
 $dbLink = mysqli_connect('localhost', 'root', '')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
@@ -17,6 +18,7 @@ if ($mdp == $mdp2 && $cgu == 1 && $action == 'inscription'){
     // Hachage du mot de passe
     $mdp_hache = password_hash($mdp, PASSWORD_DEFAULT);
 
+    //ajout d'un utilisateur
     $query = "INSERT INTO user (pseudo, mail, password) 
         VALUES ('$pseudo', '$mail', '$mdp_hache')";
 
@@ -34,5 +36,6 @@ if ($action == 'connection'){
     $resultat = $query->fetch();
 }
 
+//redirige vers la page d'acceuil
 header('Location: ../index.php');
 ?>
