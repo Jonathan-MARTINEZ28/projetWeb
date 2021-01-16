@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="inscription et début de la connection" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n1LOP09bliIabfUsAfISxJsPRj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="" />
+      <created>1610552617639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610552617639</updated>
+      <workItem from="1610552618975" duration="3736000" />
+      <workItem from="1610617109285" duration="5297000" />
+      <workItem from="1610814272414" duration="6058000" />
+      <workItem from="1610821352932" duration="408000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1610552661614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610552661614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Page d'aceuil, de connection et d'inscription">
+      <created>1610556389762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556389763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ajout d'un gabarit(template pour les pages) et début de la gestion de la base de données">
+      <created>1610623108287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610623108288</updated>
+    </task>
+    <task id="LOCAL-00004" summary="inscription et début de la connection">
+      <created>1610819725904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610819725904</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inscription + début de la connection">
+      <created>1610821702256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610821702256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Page d'aceuil, de connection et d'inscription" />
+    <MESSAGE value="ajout d'un gabarit(template pour les pages) et début de la gestion de la base de données" />
+    <MESSAGE value="inscription et début de la connection" />
+    <MESSAGE value="inscription + début de la connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="inscription + début de la connection" />
+  </component>
+</project>
