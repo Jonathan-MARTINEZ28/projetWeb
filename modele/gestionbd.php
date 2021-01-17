@@ -28,6 +28,12 @@ if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'
         echo 'Requête : ' . $query . '<br/>';
         exit();
     }
+    header('Location: ../index.php');
+    exit();
+}
+else ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
+    header('Location: ../error.php');
+    exit();
 }
 
 if ($action == 'Connection'){
@@ -56,5 +62,6 @@ if ($action == 'Connection'){
 
 //redirige vers la page d'acceuil
 header('Location: ../index.php');
+exit();
 
 ?>
