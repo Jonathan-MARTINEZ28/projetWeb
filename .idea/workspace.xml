@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="inscription et début de la connection">
+    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/gestionbd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vues/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vues/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,8 @@
       <workItem from="1610554032069" duration="2086000" />
       <workItem from="1610558712125" duration="86000" />
       <workItem from="1610613359507" duration="7383000" />
-      <workItem from="1610899501759" duration="8407000" />
+      <workItem from="1610899501759" duration="8597000" />
+      <workItem from="1610910171423" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -65,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610556598376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connection et déconnection">
+      <created>1610908036777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610908036777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +91,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Unversioned Files" />
     <MESSAGE value="commit default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit default Changelist" />
+    <MESSAGE value="connection et déconnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection et déconnection" />
   </component>
 </project>
