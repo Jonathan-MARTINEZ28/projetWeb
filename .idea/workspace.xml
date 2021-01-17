@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb9b11e-7b34-4184-a31a-7b7162e1c29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controleurs/ControleurHelloworld.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modele/Helloworld.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noyau/ChargementAuto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noyau/Constantes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noyau/Controleur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noyau/Vue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vues/helloworld/voir.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vues/standard/entete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vues/standard/pied.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexTestMVC.php" afterDir="false" />
+    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="inscription et début de la connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vues/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vues/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dbb9b11e-7b34-4184-a31a-7b7162e1c29a" name="Default Changelist" comment="" />
+      <changelist id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="inscription et début de la connection" />
       <created>1610554030831</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -48,6 +42,7 @@
       <workItem from="1610554032069" duration="2086000" />
       <workItem from="1610558712125" duration="86000" />
       <workItem from="1610613359507" duration="7383000" />
+      <workItem from="1610899501759" duration="8407000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>

@@ -2,8 +2,8 @@
 ob_start();
 echo '
     <form action="modele/gestionbd.php" method="post">
-        <label for="id">Identifiant:</label><br>
-        <input type="text" id="id" name="id"/><br>
+        <label for="pseudo">Identifiant:</label><br>
+        <input type="text" id="pseudo" name="pseudo"/><br>
         <label for="mail">E-mail</label><br>
         <input type="text" id="mail" name="mail"/><br>
         <label for="pass">Mot de passe</label><br>

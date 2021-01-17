@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <a href="index.php"> <img src="logo_small.png" alt="logo"> </a>
+        <a href="index.php"> <img src="logo_small.png" alt="logo"> </a><br>
     </header>
 
     <div id="contenu">
@@ -21,6 +21,12 @@
 
     <footer id="piedBlog">
         Blog réalisé avec PHP, HTML5 et CSS.
+        <?php
+        session_start();
+        if (isset($_SESSION['id']) AND isset($_SESSION['pseudo'])) {
+            echo 'Bonjour ' . $_SESSION['pseudo'];
+        }
+        ?>
     </footer>
 
 </body>
