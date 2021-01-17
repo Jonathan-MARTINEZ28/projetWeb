@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="inscription et début de la connection">
+      <change afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/gestionbd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vues/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vues/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
       <workItem from="1610558712125" duration="86000" />
       <workItem from="1610613359507" duration="7383000" />
       <workItem from="1610899501759" duration="8407000" />
+      <workItem from="1610909019707" duration="819000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
