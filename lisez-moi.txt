@@ -1,0 +1,12 @@
+TeamMLZ Jonathan MARTINEZ; Marlon LECORDIER; Adham ZEKRI
+
+URL :
+
+Ce projet consite à créer pour Vanéstarre alias Vanessa Maurel, une page Web pour créer son propre réseau social,
+pour l'instant de 5 abonnées.
+
+Technologies : Usage de l'HTML pour le contenu du site, couplé avec le CSS afin de réaliser le style correspondant,
+PHP afin de rendre ce site dynamique et MySQL avec phpMyAdmin pour stocker et utiliser les données utiles pour le site
+(pseudo, mot de passe d'un utilisateur, adresse e-mail...)
+Utilisation de GitHub comme système de versionnage, afin de mieux travailler à plusieurs sur un même projet, grâce au
+contrôle de version.
