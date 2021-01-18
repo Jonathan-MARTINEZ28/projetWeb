@@ -22,9 +22,25 @@ $action_env = $_GET['envoyer'];
 //ajout message avec BD
 if ($action_env == 'Envoyer')
 {
+    $dbLink = mysqli_connect('localhost','root', '')
+    or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
+
+    mysqli_select_db($dbLink,'vanestarre')
+    or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
+
     $query = "INSERT INTO message (contenu_message) 
         VALUES ('$text')";
-    echo $text;
+    if(!($dbResult = mysqli_query($dbLink, $query)))
+    {
+        echo 'Erreur de requête<br/>';
+        echo  'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+        echo 'Requête : ' . $query . '<br/>';
+        exit();
+    }
+    $dbRow = mysqli_fetch_assoc($dbResult);
+
+    echo $dbRow;
+
 }
 
 
