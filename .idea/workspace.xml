@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
+      <change afterPath="$PROJECT_DIR$/Idées" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
       <workItem from="1610613359507" duration="7383000" />
       <workItem from="1610899501759" duration="8597000" />
       <workItem from="1610910171423" duration="34000" />
+      <workItem from="1610982437700" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -69,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610908036777</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test affichage messages en cours">
+      <created>1610983968873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610983968873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test affichage messages en cours : affichage par rapport à la requête de BD">
+      <created>1610985627591</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610985627591</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +109,8 @@
     <MESSAGE value="Unversioned Files" />
     <MESSAGE value="commit default Changelist" />
     <MESSAGE value="connection et déconnection" />
-    <option name="LAST_COMMIT_MESSAGE" value="connection et déconnection" />
+    <MESSAGE value="test affichage messages en cours" />
+    <MESSAGE value="test affichage messages en cours : affichage par rapport à la requête de BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="test affichage messages en cours : affichage par rapport à la requête de BD" />
   </component>
 </project>
