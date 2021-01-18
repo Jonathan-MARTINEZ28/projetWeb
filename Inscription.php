@@ -18,7 +18,7 @@
         <label for="cgu">J\'accepte les conditions générales d\'utilisation</label><br>
         <input type="submit" value="Inscription" name="action" id="action" />
     </form>
-    <a href="Connection.php">J\'ai déjà un compte</a><br>';
+    <a href="Connection.php"><button>J\'ai déjà un compte</button></a><br>';
 
     $contenu = ob_get_clean();
     require 'vues/gabarit.php';

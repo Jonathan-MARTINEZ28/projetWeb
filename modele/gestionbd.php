@@ -39,7 +39,7 @@ if ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
 }
 
 if ($action == 'Connection'){
-    $query = "SELECT id, password FROM user WHERE pseudo = '$pseudo'";
+    $query = "SELECT id, password, mail FROM user WHERE pseudo = '$pseudo'";
     $dbResult = mysqli_query($dbLink, $query);
     $resultat = mysqli_fetch_array($dbResult);
 
@@ -54,12 +54,17 @@ if ($action == 'Connection'){
             session_start();
             $_SESSION['id'] = $resultat['id'];
             $_SESSION['pseudo'] = $pseudo;
+            $_SESSION['mail'] = $resultat['mail'];
             echo 'Vous êtes connecté !';
         }
         else {
             echo 'Mauvais identifiant ou mot de passe !';
         }
     }
+}
+
+if ($action == 'recup'){
+
 }
 
 //redirige vers la page d'acceuil
