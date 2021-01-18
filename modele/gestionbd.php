@@ -10,10 +10,11 @@ $cgu = $_POST["cgu"];
 $dbLink = mysqli_connect('localhost', 'root', '')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
-mysqli_select_db($dbLink, 'vanestarre')
+mysqli_select_db($dbLink, 'vanestarretest')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 
 if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'){
+    if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1){
     // Hachage du mot de passe
     $mdp_hache = password_hash($mdp, PASSWORD_DEFAULT);
 
@@ -30,8 +31,9 @@ if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'
     }
     header('Location: ../index.php');
     exit();
+    }
 }
-else ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
+if ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
     header('Location: ../error.php');
     exit();
 }
