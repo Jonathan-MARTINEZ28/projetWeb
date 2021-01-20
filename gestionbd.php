@@ -1,4 +1,5 @@
 <?php
+
 $action = $_POST["action"];
 $pseudo = $_POST["pseudo"];
 $mail = $_POST["mail"];
@@ -7,11 +8,12 @@ $mdp2 = $_POST["pass2"];
 $cgu = $_POST["cgu"];
 
 //conection à la base de données
-$dbLink = mysqli_connect('localhost', 'root', '')
+/*$dbLink = mysqli_connect('localhost', 'root', '')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
 mysqli_select_db($dbLink, 'vanestarretest')
-or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
+or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));*/
+require 'Modele/connectBD.php';
 
 
 if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'){
