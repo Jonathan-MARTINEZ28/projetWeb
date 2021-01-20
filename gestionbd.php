@@ -70,6 +70,22 @@ if ($action == 'recup'){
 
 }
 
+$newpseudo = $_POST['newpseudo'];
+session_start();
+$id = $_SESSION['id'];
+if ($action == 'changer de pseudo' && $newpseudo != '' && $newpseudo != $_SESSION['pseudo']){
+
+    $query = "UPDATE user SET pseudo = '$newpseudo' WHERE id = '$id'";
+
+    if (!($dbResult = mysqli_query($dbLink, $query))) {
+        echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
+        echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+        // Affiche la requête envoyée.
+        echo 'Requête : ' . $query . '<br/>';
+        exit();
+    }
+}
+
 //redirige vers la page d'acceuil
 header('Location: index.php');
 exit();
