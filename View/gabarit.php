@@ -24,7 +24,7 @@
         <?php
         session_start();
         if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
-            echo '<a href="../profil.php"><button>Mon profil</button> ';
+            echo '<a href="profil.php"><button>Mon profil</button> ';
         }
         ?>
     </footer>

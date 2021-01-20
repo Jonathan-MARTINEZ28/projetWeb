@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/Modele/requestBD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/connectBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connectBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotDePasseOublie.php" beforeDir="false" afterPath="$PROJECT_DIR$/MotDePasseOublie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/View/logo_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/profil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
       <workItem from="1610991802988" duration="21000" />
       <workItem from="1611127651052" duration="3855000" />
       <workItem from="1611132474207" duration="8709000" />
-      <workItem from="1611153987745" duration="4648000" />
+      <workItem from="1611153987745" duration="7431000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611141304636</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit et push pour MàJ organisation fichiers (framework)">
+      <created>1611158937169</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611158937169</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +153,7 @@
     <MESSAGE value="test affichage messages en cours : affichage par rapport à la requête de BD" />
     <MESSAGE value="Sans Framework" />
     <MESSAGE value="framework en cours : connection BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="framework en cours : connection BD" />
+    <MESSAGE value="commit et push pour MàJ organisation fichiers (framework)" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit et push pour MàJ organisation fichiers (framework)" />
   </component>
 </project>

@@ -2,9 +2,10 @@
 
 require 'Modele/connectBD.php';
 require 'Modele/requestBD.php';
+require 'Modele/message.php';
 
 ob_start();
-echo '<form action="home.php" method="post">
+echo '<form action="controlleur_message.php" method="post">
         <input type="text" name="message" id="message" placeholder="Message..."/>
         <input type="submit" name="envoyer" id ="envoyer" value="Envoyer"/>
 </form>
@@ -19,23 +20,6 @@ echo '<form action="home.php" method="post">
         </select><br>
     ';
 
-$text = $_GET['message'];
-//echo $text;
-$action_env = $_GET['envoyer'];
-
-//ajout message avec BD
-if ($action_env == 'Envoyer')
-{
-    getBD();
-
-    $query = "INSERT INTO message (contenu_message) 
-        VALUES ('$text')";
-    getRequest();
-    $dbRow = mysqli_fetch_assoc($dbResult);
-
-    echo $dbRow;
-
-}
 
 $contenu = ob_get_clean();
 
