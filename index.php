@@ -3,7 +3,7 @@
     echo '
     <a href="Connection.php"><button>Se connecter</button></a><br>
     <a href="Inscription.php"><button>S\'inscrire</button></a><br>
-    <a href="modele/déconnection.php"><button>déconnection</button></a><br>
+    <a href="déconnection.php"><button>déconnection</button></a><br>
     <h3>message</h3><br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
     <select name="pays" id="pays">
@@ -16,7 +16,7 @@
     ';
 
 $contenu = ob_get_clean();
-    require 'vues/gabarit.php';
+    require 'gabarit.php';
 ?>
 
 
