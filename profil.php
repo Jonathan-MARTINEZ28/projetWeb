@@ -8,5 +8,5 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo'])) {
 echo ' <input type="text" id="newpseudo" name="newpseudo"/><br>';
 session_abort();
 $contenu = ob_get_clean();
-require 'vues/gabarit.php'
+require 'View/gabarit.php'
 ?>

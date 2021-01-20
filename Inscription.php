@@ -21,6 +21,6 @@
     <a href="Connection.php"><button>J\'ai déjà un compte</button></a><br>';
 
     $contenu = ob_get_clean();
-    require 'gabarit.php';
+    require 'View/gabarit.php';
 ?>
 

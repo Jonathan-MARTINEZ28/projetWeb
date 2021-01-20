@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <a href="index.php"> <img src="logo_small.png" alt="logo"> </a><br>
+        <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
     </header>
 
     <div id="contenu">
@@ -24,7 +24,7 @@
         <?php
         session_start();
         if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
-            echo '<a href="profil.php"><button>Mon profil</button> ';
+            echo '<a href="../profil.php"><button>Mon profil</button> ';
         }
         ?>
     </footer>

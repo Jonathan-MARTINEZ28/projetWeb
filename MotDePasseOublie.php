@@ -9,5 +9,5 @@ echo '
         <input type="submit" value="Connection" name="action" id="recup" />
     </form><br>';
 $contenu = ob_get_clean();
-require 'vues/gabarit.php';
+require 'View/gabarit.php';
 ?>
