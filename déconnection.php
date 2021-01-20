@@ -6,5 +6,5 @@ $_SESSION = array();
 session_destroy();
 
 //redirige vers la page d'acceuil
-header('Location: ../index.php');
+header('Location: index.php');
 ?>

@@ -13,6 +13,7 @@ or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 mysqli_select_db($dbLink, 'vanestarretest')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 
+
 if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'){
     if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1){
     // Hachage du mot de passe
@@ -29,12 +30,12 @@ if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'
         echo 'Requête : ' . $query . '<br/>';
         exit();
     }
-    header('Location: ../index.php');
+    header('Location: index.php');
     exit();
     }
 }
 if ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
-    header('Location: ../error.php');
+    header('Location: error.php');
     exit();
 }
 
@@ -68,7 +69,7 @@ if ($action == 'recup'){
 }
 
 //redirige vers la page d'acceuil
-header('Location: ../index.php');
+header('Location: index.php');
 exit();
 
 ?>
