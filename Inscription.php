@@ -1,7 +1,7 @@
 <?php
     ob_start();
     echo '
-    <form action="modele/gestionbd.php" method="post">
+    <form action="gestionbd.php" method="post">
         <label for="pseudo">Pseudonyme</label><br>
         <input type="text" id="pseudo" name="pseudo"/><br>
         
