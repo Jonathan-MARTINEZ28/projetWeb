@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/Idées" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
+    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="page profil et mot de passe oublié (non terminées)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/profil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
       <workItem from="1610899501759" duration="8597000" />
       <workItem from="1610910171423" duration="34000" />
       <workItem from="1610982437700" duration="4787000" />
+      <workItem from="1611131913797" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610985627591</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="page profil et mot de passe oublié (non terminées)">
+      <created>1610987634432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610987634432</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="connection et déconnection" />
     <MESSAGE value="test affichage messages en cours" />
     <MESSAGE value="test affichage messages en cours : affichage par rapport à la requête de BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="test affichage messages en cours : affichage par rapport à la requête de BD" />
+    <MESSAGE value="page profil et mot de passe oublié (non terminées)" />
+    <option name="LAST_COMMIT_MESSAGE" value="page profil et mot de passe oublié (non terminées)" />
   </component>
 </project>
