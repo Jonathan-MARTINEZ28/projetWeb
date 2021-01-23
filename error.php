@@ -14,4 +14,4 @@ echo '
             </select><br>
         ';
 $contenu = ob_get_clean();
-require 'vues/gabarit.php';
+require 'View/gabarit.php';

@@ -16,7 +16,7 @@
     ';
 
 $contenu = ob_get_clean();
-    require 'gabarit.php';
+    require 'View/gabarit.php';
 ?>
 
 

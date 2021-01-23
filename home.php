@@ -1,6 +1,11 @@
 <?php
+
+require 'Modele/connectBD.php';
+require 'Modele/requestBD.php';
+require 'Modele/message.php';
+
 ob_start();
-echo '<form action="home.php" method="get">
+echo '<form action="controlleur_message.php" method="post">
         <input type="text" name="message" id="message" placeholder="Message..."/>
         <input type="submit" name="envoyer" id ="envoyer" value="Envoyer"/>
 </form>
@@ -15,39 +20,9 @@ echo '<form action="home.php" method="get">
         </select><br>
     ';
 
-$text = $_GET['message'];
-//echo $text;
-$action_env = $_GET['envoyer'];
-
-//ajout message avec BD
-if ($action_env == 'Envoyer')
-{
-    $dbLink = mysqli_connect('localhost','root', '')
-    or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-
-    mysqli_select_db($dbLink,'vanestarre')
-    or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
-
-    $query = "INSERT INTO message (contenu_message) 
-        VALUES ('$text')";
-    if(!($dbResult = mysqli_query($dbLink, $query)))
-    {
-        echo 'Erreur de requête<br/>';
-        echo  'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-        echo 'Requête : ' . $query . '<br/>';
-        exit();
-    }
-    $dbRow = mysqli_fetch_assoc($dbResult);
-
-    echo $dbRow;
-
-}
-
-
-
-
-
 
 $contenu = ob_get_clean();
-require 'vues/gabarit.php';
+
+
+require 'View/gabarit.php';
 ?>
