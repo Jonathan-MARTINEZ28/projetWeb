@@ -7,3 +7,7 @@ function getMessage(){
 function getSend(){
     $action_env = $_POST['envoyer'];
 }
+
+function N_emojis(){
+
+}

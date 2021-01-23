@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaceAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../td2" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +52,8 @@
       <workItem from="1610991802988" duration="21000" />
       <workItem from="1611127651052" duration="3855000" />
       <workItem from="1611132474207" duration="8709000" />
-      <workItem from="1611153987745" duration="7431000" />
+      <workItem from="1611153987745" duration="7678000" />
+      <workItem from="1611400862331" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611158937169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="framework pour messages">
+      <created>1611161584909</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161584909</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +160,7 @@
     <MESSAGE value="Sans Framework" />
     <MESSAGE value="framework en cours : connection BD" />
     <MESSAGE value="commit et push pour MàJ organisation fichiers (framework)" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit et push pour MàJ organisation fichiers (framework)" />
+    <MESSAGE value="framework pour messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="framework pour messages" />
   </component>
 </project>
