@@ -66,9 +66,51 @@ if ($action == 'Connection'){
     }
 }
 
-if ($action == 'recup'){
+$newmdp = $_POST['newpass'];
+$newmdp2 = $_POST['newpass2'];
+if ($action == 'Changer de mot de passe' && $mail != '' && $pseudo != '' && $newmdp != '' && $newmdp == $newmdp2 ){
+    $newmdp = password_hash($newmdp, PASSWORD_DEFAULT);
+    $query = "UPDATE user SET password = '$newmdp' WHERE pseudo = '$pseudo' AND mail = '$mail'";
 
+    if (!($dbResult = mysqli_query($dbLink, $query))) {
+        echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
+        echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+        // Affiche la requête envoyée.
+        echo 'Requête : ' . $query . '<br/>';
+        exit();
+    }
 }
+
+$newpseudo = $_POST['newpseudo'];
+session_start();
+$id = $_SESSION['id'];
+if ($action == 'changer de pseudo' && $newpseudo != '' && $newpseudo != $_SESSION['pseudo']){
+
+    $query = "UPDATE user SET pseudo = '$newpseudo' WHERE id = '$id'";
+    $_SESSION['pseudo'] = $newpseudo;
+    if (!($dbResult = mysqli_query($dbLink, $query))) {
+        echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
+        echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+        // Affiche la requête envoyée.
+        echo 'Requête : ' . $query . '<br/>';
+        exit();
+    }
+}
+
+$newmail = $_POST['newmail'];
+if ($action == 'changer d\'adresse mail' && $newmail != '' && $newmail != $_SESSION['mail']){
+
+    $query = "UPDATE user SET mail = '$newmail' WHERE id = '$id'";
+    $_SESSION['mail'] = $newmail;
+    if (!($dbResult = mysqli_query($dbLink, $query))) {
+        echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
+        echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+        // Affiche la requête envoyée.
+        echo 'Requête : ' . $query . '<br/>';
+        exit();
+    }
+}
+
 
 //redirige vers la page d'acceuil
 header('Location: index.php');

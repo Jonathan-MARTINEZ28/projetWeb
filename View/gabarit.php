@@ -40,6 +40,12 @@
 <body>
     <header>
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
+        <?php
+        session_start();
+        if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
+            echo '<a href="profil.php"><button>Mon profil</button> ';
+        }
+        ?>
     </header>
 
     <div id="contenu">
@@ -48,12 +54,6 @@
 
     <footer id="piedBlog">
         Blog réalisé avec PHP, HTML5 et CSS.
-        <?php
-        session_start();
-        if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
-            echo '<a href="profil.php"><button>Mon profil</button> ';
-        }
-        ?>
     </footer>
 
 </body>

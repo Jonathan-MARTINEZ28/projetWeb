@@ -1,7 +1,7 @@
 <?php
 ob_start();
 echo '
-    <form action="modele/gestionbd.php" method="post">
+    <form action="gestionbd.php" method="post">
         <label for="pseudo">Identifiant:</label><br>
         <input type="text" id="pseudo" name="pseudo"/><br>
         <label for="mail">E-mail</label><br>
@@ -12,7 +12,7 @@ echo '
         <input type="checkbox" id="stay" name="stay" value="1"/><br>-->
         <input type="submit" value="Connection" name="action" id="action" />
     </form><br>
-    <a href=""><button>J\'ai oublié mon mot de passe </button></a>';
+    <a href="MotDePasseOublie.php"><button>J\'ai oublié mon mot de passe </button></a>';
 $contenu = ob_get_clean();
 require 'View/gabarit.php';
 ?>
