@@ -12,7 +12,7 @@ echo '
         <input type="checkbox" id="stay" name="stay" value="1"/><br>-->
         <input type="submit" value="Connection" name="action" id="action" />
     </form><br>
-    <a href=""><button>J\'ai oublié mon mot de passe </button></a>';
+    <a href="MotDePasseOublie.php"><button>J\'ai oublié mon mot de passe </button></a>';
 $contenu = ob_get_clean();
 require 'gabarit.php';
 ?>

@@ -13,7 +13,7 @@ echo ' <form action="gestionbd.php" method="post">
     <form action="gestionbd.php" method="post">
         <label for="newpseudo">changer d\'adresse mail</label><br>
         <input type="text" id="newmail" name="newmail"/>
-        <input type="submit" value="changer" name="action" id="action" />
+        <input type="submit" value="changer d\'adresse mail" name="action" id="action" />
     </form><br>';
 
 session_abort();
