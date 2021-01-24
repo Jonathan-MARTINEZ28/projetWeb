@@ -15,8 +15,13 @@
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
         <?php
         session_start();
+        if (!isset($_SESSION['id'])){
+            echo'<a href="Connection.php"><button>Se connecter</button></a><br>
+            <a href="Inscription.php"><button>S\'inscrire</button></a><br>';
+        }
         if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
-            echo '<a href="profil.php"><button>Mon profil</button> ';
+            echo '<a href="profil.php"><button>Mon profil</button></a><br>
+            <a href="déconnection.php"><button>déconnection</button></a><br> ';
         }
         ?>
     </header>

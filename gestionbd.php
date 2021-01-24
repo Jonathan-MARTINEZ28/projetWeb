@@ -16,7 +16,7 @@ or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 mysqli_select_db($dbLink, 'vanestarretest')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));*/
 
-getBD();
+$dbLink = getBD();
 
 //Inscription
 if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'){
@@ -28,7 +28,7 @@ if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'
     $query = "INSERT INTO user (pseudo, mail, password) 
         VALUES ('$pseudo', '$mail', '$mdp_hache')";
 
-    getRequest();
+    getRequest($dbLink, $query);
 
 
     header('Location: index.php');

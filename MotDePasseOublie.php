@@ -17,5 +17,5 @@ echo '
         <input type="submit" value="Changer de mot de passe" name="action" id="recup"/>
     </form><br>';
 $contenu = ob_get_clean();
-require 'vues/gabarit.php';
+require 'View/gabarit.php';
 ?>

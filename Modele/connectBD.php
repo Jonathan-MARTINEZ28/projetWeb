@@ -6,4 +6,6 @@ function getBD(){
 
     mysqli_select_db($dbLink, 'vanestarretest')
     or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
+
+    return $dbLink;
 }

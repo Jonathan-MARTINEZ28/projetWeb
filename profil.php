@@ -17,5 +17,5 @@ echo ' <form action="gestionbd.php" method="post">
     </form><br>';
 session_abort();
 $contenu = ob_get_clean();
-require 'vues/gabarit.php'
+require 'View/gabarit.php'
 ?>
