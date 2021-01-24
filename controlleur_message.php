@@ -1,8 +1,8 @@
 <?php
 
-require 'Modele/connectBD.php';
-require 'Modele/requestBD.php';
-require 'Modele/message.php';
+require_once 'Modele/connectBD.php';
+require_once 'Modele/requestBD.php';
+require_once 'Modele/message.php';
 var_dump($_POST);
 ob_start();
 
@@ -23,5 +23,5 @@ if ($_POST['envoyer'] == 'Envoyer')
 $contenu = ob_get_clean();
 
 
-require 'View/gabarit.php';
+require_once 'View/gabarit.php';
 ?>

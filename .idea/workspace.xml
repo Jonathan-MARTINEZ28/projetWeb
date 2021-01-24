@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/Modele/n_set.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/n_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/n_set.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlleur_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlleur_set_n.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaceAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAdmin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,8 @@
       <workItem from="1611400862331" duration="1432000" />
       <workItem from="1611402409922" duration="42000" />
       <workItem from="1611418076859" duration="6461000" />
-      <workItem from="1611424605862" duration="2130000" />
+      <workItem from="1611424605862" duration="2720000" />
+      <workItem from="1611485143111" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611402296667</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test n + menu">
+      <created>1611427322939</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611427322939</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +183,7 @@
     <MESSAGE value="commit et push pour MàJ organisation fichiers (framework)" />
     <MESSAGE value="framework pour messages" />
     <MESSAGE value="Réglages limite minimale et maximale paramétrables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Réglages limite minimale et maximale paramétrables" />
+    <MESSAGE value="Test n + menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test n + menu" />
   </component>
 </project>

@@ -1,19 +1,20 @@
 <?php
 
-require 'Modele/n_set.php';
+require_once 'Modele/n_set.php';
 var_dump($_POST);
-ob_start();
+
 
 //ajout message avec BD
-if ($buttonRec == 'Enregistrer')
-{
-    getN();
-    $Nresult = rand($Nmin,$Nman);
-
+if (!empty($_POST)){
+    $buttonRec = $_POST['rec_n'];
+    $Nmin = $_POST['n_min'];
+    $Nmax = $_POST['n_max'];
+    $Nresult = rand($Nmin,$Nmax); // A enregistrer dans la BD
 }
 
-$contenu = ob_get_clean();
 
 
-require 'View/gabarit.php';
+
+
+require_once 'interfaceAdmin.php';
 ?>
