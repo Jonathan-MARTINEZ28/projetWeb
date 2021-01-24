@@ -8,6 +8,33 @@
     body {
         background-color: violet;
     }
+
+    nav {
+        background: gray;
+        height:50px;
+        top:0;
+        width: 100%;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    #leftnav {
+        display: flex;
+        flex-direction: row;
+        margin-left: 3px;
+    }
+
+    #rightnav {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10px;
+        margin-right: 3px;
+    }
+
+    #logo1  img:hover {zoom: 200%;}
+    #logo1 img {width:50px;}
+
 </style>
 
 <body>

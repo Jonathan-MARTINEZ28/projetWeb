@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/n_set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAdmin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../td3" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +57,11 @@
       <workItem from="1610991802988" duration="21000" />
       <workItem from="1611127651052" duration="3855000" />
       <workItem from="1611132474207" duration="8709000" />
-      <workItem from="1611153987745" duration="7431000" />
+      <workItem from="1611153987745" duration="7678000" />
+      <workItem from="1611400862331" duration="1432000" />
+      <workItem from="1611402409922" duration="42000" />
+      <workItem from="1611418076859" duration="6461000" />
+      <workItem from="1611424605862" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -126,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611158937169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="framework pour messages">
+      <created>1611161584909</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161584909</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Réglages limite minimale et maximale paramétrables">
+      <created>1611402296667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611402296667</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +175,8 @@
     <MESSAGE value="Sans Framework" />
     <MESSAGE value="framework en cours : connection BD" />
     <MESSAGE value="commit et push pour MàJ organisation fichiers (framework)" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit et push pour MàJ organisation fichiers (framework)" />
+    <MESSAGE value="framework pour messages" />
+    <MESSAGE value="Réglages limite minimale et maximale paramétrables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Réglages limite minimale et maximale paramétrables" />
   </component>
 </project>
