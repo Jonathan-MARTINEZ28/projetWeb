@@ -41,7 +41,7 @@
     <header>
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
 
-        <form method="post" action="">
+        <form method="post" action="controlleur_tag.php">
             Rerchercher un tag : <input type="text" name="recherche">
             <input type="SUBMIT" value="Search!"> <br>
         </form>
