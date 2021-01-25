@@ -40,6 +40,12 @@
 <body>
     <header>
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
+
+        <form method="post" action="">
+            Rerchercher un tag : <input type="text" name="recherche">
+            <input type="SUBMIT" value="Search!"> <br>
+        </form>
+
         <?php
         session_start();
         if (!isset($_SESSION['id'])){

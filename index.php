@@ -19,6 +19,7 @@
     }
 
 
+
     $contenu = ob_get_clean();
     require 'View/gabarit.php';
 ?>
