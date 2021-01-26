@@ -3,6 +3,7 @@
     ob_start();
     affichermessage();
 
+
     $contenu = ob_get_clean();
     require 'View/gabarit.php';
 ?>

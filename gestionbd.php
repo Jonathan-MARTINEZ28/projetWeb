@@ -111,6 +111,14 @@ if ($action == 'changer d\'adresse mail' && $newmail != '' && $newmail != $_SESS
     }
 }
 
+//Recherche par tag
+$recherche = isset($_POST['recherche']) ? $_POST['recherche'] : '';
+$query = "SELECT tag FROM messages WHERE tag LIKE '%$recherche%' ";
+while ( $r = mysqli_fetch_array($query)){
+    echo 'Résultat de la recherche: '.$r['tag'].' <br/>';
+}
+
+
 
 //redirige vers la page d'acceuil
 header('Location: index.php');

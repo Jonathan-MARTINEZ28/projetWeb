@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Idées" beforeDir="false" afterPath="$PROJECT_DIR$/Idées" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/connectBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connectBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/requestBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/requestBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlleur_set_n.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaceAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,8 @@
       <workItem from="1611418076859" duration="6461000" />
       <workItem from="1611424605862" duration="2720000" />
       <workItem from="1611485143111" duration="1519000" />
-      <workItem from="1611504252417" duration="7774000" />
+      <workItem from="1611504252417" duration="8329000" />
+      <workItem from="1611567603032" duration="4174000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611486666285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="génération n + insertion dans la BD">
+      <created>1611512349045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611512349045</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +200,7 @@
     <MESSAGE value="Test n + menu" />
     <MESSAGE value="formulaire n-min et n-max" />
     <MESSAGE value="formulaire n-min et n-max (sans BD)" />
-    <option name="LAST_COMMIT_MESSAGE" value="formulaire n-min et n-max (sans BD)" />
+    <MESSAGE value="génération n + insertion dans la BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="génération n + insertion dans la BD" />
   </component>
 </project>
