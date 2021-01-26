@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/View/Original_Quality_DEMO.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/logo_small_icon_only_inverted.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlleur_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,8 @@
       <workItem from="1611573230186" duration="27000" />
       <workItem from="1611590599714" duration="3264000" />
       <workItem from="1611653418121" duration="5844000" />
-      <workItem from="1611665362508" duration="13001000" />
+      <workItem from="1611665362508" duration="13757000" />
+      <workItem from="1611679801582" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -202,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611667914459</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="style + correction gestionbd.php redondances variable en $_POST">
+      <created>1611679324322</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611679324322</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +243,7 @@
     <MESSAGE value="recherche par tag : afficher le contenu recherche en cours" />
     <MESSAGE value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
     <MESSAGE value="commit avant style" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit avant style" />
+    <MESSAGE value="style + correction gestionbd.php redondances variable en $_POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="style + correction gestionbd.php redondances variable en $_POST" />
   </component>
 </project>
