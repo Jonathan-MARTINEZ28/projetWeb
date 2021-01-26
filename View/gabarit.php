@@ -42,10 +42,13 @@
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
         <?php
         session_start();
+        //si l'utilisateur n'est pas connecté affiche les boutons de connection et d'inscription
         if (!isset($_SESSION['id'])){
             echo'<a href="Connection.php"><button>Se connecter</button></a><br>
             <a href="Inscription.php"><button>S\'inscrire</button></a><br>';
         }
+
+        //si l'utilisateur est connecté affiche les boutons de profil et de déconnection
         if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
             echo '<a href="profil.php"><button>Mon profil</button></a><br>
             <a href="déconnection.php"><button>déconnection</button></a><br> ';

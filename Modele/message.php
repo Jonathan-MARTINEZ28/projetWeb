@@ -2,6 +2,7 @@
 require 'Modele/connectBD.php';
 require 'Modele/requestBD.php';
 
+//fonction récupérant les messages de la base de donnée
 function getMessage(){
     $dbLink = getBD();
     $query = "SELECT id, contenu, tag, love, cute, tropstyle, swag, date FROM messages";
@@ -14,6 +15,7 @@ function getSend(){
     $action_env = $_POST['envoyer'];
 }
 
+//fonction affichant les messages et la possibilité d'y réagir
 function affichermessage(){
     $dbResult = getMessage();
     while ($resultat = mysqli_fetch_array($dbResult)) {
