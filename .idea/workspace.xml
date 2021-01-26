@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
+      <change afterPath="$PROJECT_DIR$/View/Original_Quality_DEMO.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/logo_small_icon_only_inverted.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lisez-moi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlleur_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <workItem from="1611573230186" duration="27000" />
       <workItem from="1611590599714" duration="3264000" />
       <workItem from="1611653418121" duration="5844000" />
-      <workItem from="1611665362508" duration="2446000" />
+      <workItem from="1611665362508" duration="13001000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611659294847</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="commit avant style">
+      <created>1611667914459</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611667914459</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +239,7 @@
     <MESSAGE value="Barre de recherches (en cours)" />
     <MESSAGE value="recherche par tag : afficher le contenu recherche en cours" />
     <MESSAGE value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
+    <MESSAGE value="commit avant style" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit avant style" />
   </component>
 </project>

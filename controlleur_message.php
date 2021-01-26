@@ -19,10 +19,10 @@ if ($_POST['envoyer'] == 'Envoyer')
 
     //echo $dbRow;
 
-    $query1 = "SELECT nombre_n FROM n_generer";
-    $dbResult = getRequest($dbLien, $query1);
+    $queryNbN = "SELECT nombre_n FROM n_generer";
+    $dbResult = getRequest($dbLien, $queryNbN);
     $countLove = substr_count($dbRow, 'love');
-    if ($countLove > $query1){
+    if ($countLove > $queryNbN){
         echo 'Faites un don de 10 bitcoins à Vanéstarre !';
     }
 

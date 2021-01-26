@@ -3,6 +3,7 @@
     require 'Modele/connectBD.php';
     require 'Modele/requestBD.php';
 
+
     $dbLink = getBD();
 
     $query = "SELECT id, contenu, tag, date FROM messages";
