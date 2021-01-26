@@ -16,5 +16,5 @@ Cryptage du mot de passe : Lors de l'inscription d'un utilisateur, le mot de pas
 la Base de Données (table user, attribut password), dès que l'utilisateur appuie sur le bonton 'Inscription'
 et que ce mot de passe respecte les contraintes (mot de passe et confirmation du mot de passe égales,  Conditions
 générales d'utilisation acceptée, mot de passe supérieur à 8 caractères).
-La fonction de hashage utilisé est password_hash, avec comme algorithme PASSWORD_DEFAULT. Le mot de passe pourra être ensuite vérifié lors de la connexion
-grâce à la fonction password_verify
+La fonction de hashage utilisé est "password_hash()", avec comme algorithme "PASSWORD_DEFAULT". Le mot de passe pourra
+être ensuite vérifié lors de la connexion grâce à la fonction "password_verify()"

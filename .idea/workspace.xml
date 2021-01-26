@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Idées" beforeDir="false" afterPath="$PROJECT_DIR$/Idées" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/connectBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connectBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/requestBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/requestBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlleur_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlleur_set_n.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lisez-moi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../td2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +63,8 @@
       <workItem from="1611567603032" duration="4630000" />
       <workItem from="1611573230186" duration="27000" />
       <workItem from="1611590599714" duration="3264000" />
-      <workItem from="1611653418121" duration="5666000" />
+      <workItem from="1611653418121" duration="5844000" />
+      <workItem from="1611665362508" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -188,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611593863426</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies">
+      <created>1611659294847</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611659294847</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +228,7 @@
     <MESSAGE value="génération n + insertion dans la BD" />
     <MESSAGE value="Barre de recherches (en cours)" />
     <MESSAGE value="recherche par tag : afficher le contenu recherche en cours" />
-    <option name="LAST_COMMIT_MESSAGE" value="recherche par tag : afficher le contenu recherche en cours" />
+    <MESSAGE value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
   </component>
 </project>

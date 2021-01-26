@@ -40,23 +40,28 @@
 <body>
     <header>
         <a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a><br>
+        <?php
+        session_start();
+        if (!isset($_SESSION['id'])) {
+        echo '<a href="Connection.php"><button>Se connecter</button></a><br>
+        <a href="Inscription.php"><button>S\'inscrire</button></a><br>';
+        }
+        if (isset($_SESSION['id']) and isset($_SESSION['pseudo']) and isset($_SESSION['mail'])) {
+        echo '<a href="profil.php"><button>Mon profil</button></a><br>
+        <a href="déconnection.php"><button>déconnection</button></a><br> ';
+        }
+        ?>
 
         <form method="post" action="controlleur_tag.php">
             Rerchercher un tag : <input type="text" name="recherche">
             <input type="SUBMIT" value="Search!"> <br>
         </form>
+        <form action="controlleur_message.php" method="post">
+            <input type="text" name="message" id="message" placeholder="Message..."/>
+            <input type="submit" name="envoyer" id ="envoyer" value="Envoyer"/>
+        </form>
 
-        <?php
-        session_start();
-        if (!isset($_SESSION['id'])){
-            echo'<a href="Connection.php"><button>Se connecter</button></a><br>
-            <a href="Inscription.php"><button>S\'inscrire</button></a><br>';
-        }
-        if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']) AND isset($_SESSION['mail'])) {
-            echo '<a href="profil.php"><button>Mon profil</button></a><br>
-            <a href="déconnection.php"><button>déconnection</button></a><br> ';
-        }
-        ?>
+
     </header>
 
     <div id="contenu">
