@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
-      <change afterPath="$PROJECT_DIR$/controlleur_tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testTag.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idées" beforeDir="false" afterPath="$PROJECT_DIR$/Idées" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/connectBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connectBD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/requestBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/requestBD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlleur_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlleur_set_n.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlleur_set_n.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lisez-moi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,8 @@
       <workItem from="1611504252417" duration="8329000" />
       <workItem from="1611567603032" duration="4630000" />
       <workItem from="1611573230186" duration="27000" />
-      <workItem from="1611590599714" duration="3197000" />
+      <workItem from="1611590599714" duration="3264000" />
+      <workItem from="1611653418121" duration="5666000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611572848122</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="recherche par tag : afficher le contenu recherche en cours">
+      <created>1611593863426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611593863426</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +223,7 @@
     <MESSAGE value="formulaire n-min et n-max (sans BD)" />
     <MESSAGE value="génération n + insertion dans la BD" />
     <MESSAGE value="Barre de recherches (en cours)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Barre de recherches (en cours)" />
+    <MESSAGE value="recherche par tag : afficher le contenu recherche en cours" />
+    <option name="LAST_COMMIT_MESSAGE" value="recherche par tag : afficher le contenu recherche en cours" />
   </component>
 </project>

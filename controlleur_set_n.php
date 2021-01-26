@@ -5,14 +5,14 @@ require_once 'Modele/n_set.php';
 var_dump($_POST);
 
 
-//ajout message avec BD
-if (!empty($_POST)){
+
+if (!empty($_POST)){//
     $dbLien = getBD();
 
-    $buttonRec = $_POST['rec_n'];
-    $Nmin = $_POST['n_min'];
-    $Nmax = $_POST['n_max'];
-    $Nresult = rand($Nmin,$Nmax);
+    $buttonRec = $_POST['rec_n'];//récupération valeur bouton 'Enregistrer'
+    $Nmin = $_POST['n_min'];//récupération valeur n minimale
+    $Nmax = $_POST['n_max'];//récupération valeur n maximale
+    $Nresult = rand($Nmin,$Nmax); // générer valeur n entre n_min et n_max
 
     //enregistrer dans la BD
     $query = "UPDATE n_generer

@@ -16,7 +16,7 @@ or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 mysqli_select_db($dbLink, 'vanestarretest')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));*/
 
-$dbLink = getBD();
+$dbLink = getBD(); // Connexion à la Base de Données
 
 //Inscription
 if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1 && $action == 'Inscription'){
@@ -66,6 +66,8 @@ if ($action == 'Connection'){
     }
 }
 
+
+//Changement Mot de passe
 $newmdp = $_POST['newpass'];
 $newmdp2 = $_POST['newpass2'];
 if ($action == 'Changer de mot de passe' && $mail != '' && $pseudo != '' && $newmdp != '' && $newmdp == $newmdp2 ){
@@ -81,6 +83,7 @@ if ($action == 'Changer de mot de passe' && $mail != '' && $pseudo != '' && $new
     }
 }
 
+//Changement du pseudo
 $newpseudo = $_POST['newpseudo'];
 session_start();
 $id = $_SESSION['id'];
@@ -97,6 +100,7 @@ if ($action == 'changer de pseudo' && $newpseudo != '' && $newpseudo != $_SESSIO
     }
 }
 
+//Changement de l'addresse e-mail
 $newmail = $_POST['newmail'];
 if ($action == 'changer d\'adresse mail' && $newmail != '' && $newmail != $_SESSION['mail']){
 

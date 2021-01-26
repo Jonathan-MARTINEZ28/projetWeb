@@ -1,6 +1,6 @@
 <?php
 
-
+//permet la requête à la Base de Données
 function getRequest($dbLink,$query) {
     if (!($dbResult = mysqli_query($dbLink, $query))) {
         echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
