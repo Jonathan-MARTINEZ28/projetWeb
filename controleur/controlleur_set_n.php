@@ -14,9 +14,9 @@ if (!empty($_POST)){//
     $Nresult = rand($Nmin,$Nmax); // générer valeur n entre n_min et n_max
 
     //enregistrer dans la BD
-    $query = "UPDATE n_generer
-        SET nombre_n = ($Nresult)";
-    $dbResultat = getRequest($dbLien,$query);
+    $query = "UPDATE messages
+        SET n_don = ('$Nresult')";
+    getRequest($dbLien,$query);
     //$dbRow =
 
 

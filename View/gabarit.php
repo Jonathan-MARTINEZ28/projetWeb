@@ -106,7 +106,7 @@
 <header>
     <nav>
         <div id="leftnav">
-            <figure id="logo1"><img src="View/logo_small_icon_only_inverted.png" alt="icon1"></figure>
+            <figure id="logo1"><img src="../View/logo_small_icon_only_inverted.png" alt="icon1"></figure>
             <ul id="menu1">
                 <li><a id="hm" href="../index.php">Home</a></li>
                 <li><a href="MET CE QUE TU VEUX">XXX</a></li>
@@ -122,7 +122,7 @@
 
     <br>
 
-    <figure id="logo2"><a href="../index.php"> <img src="View/logo_small.png" alt="logo"> </a></figure>
+    <figure id="logo2"><a href="../index.php"> <img src="../View/logo_small.png" alt="logo"> </a></figure>
 
     <br>
 
@@ -137,9 +137,6 @@
         echo '<a href="View/profil.php"><button>Mon profil</button></a><br>
         <a href="../controleur/déconnection.php"><button>déconnection</button></a><br> ';
     }
-    /*echo $_SESSION['id'];
-        echo $_SESSION['pseudo'];
-        echo $_SESSION['mail'];*/
     ?>
 
     <form method="POST">
@@ -147,13 +144,6 @@
         <input type="text" name="recherche" placeholder="Chercher">
         <button type="submit">Search!</button>
     </form>
-
-
-    <form action="../controleur/controlleur_message.php" method="post">
-        <input type="text" name="message" id="message" placeholder="Message..."/>
-        <input type="submit" name="envoyer" id ="envoyer" value="Envoyer"/>
-    </form>
-
 
 </header>
 

@@ -8,7 +8,9 @@ if(isset($_GET['t'],$_GET['id'])){
     $gett = $_GET['t']; //récupère l'émoji sur lequel on clique
     $userid = $_SESSION['id']; //récupère l'id de l'utilisateur
     session_abort();
+
     if (!isset($userid)){header("location:" . $_SERVER['HTTP_REFERER']);}//empêche un utilisateur non connecté de réagir aux messages
+
     //selectionne les valeurs de la table reaction pour le message sélectionné et l'utilisateur courant
     $requete2 = "SELECT id, id_message, id_user, emoji FROM reaction WHERE id_user = '$userid' AND id_message = '$getid'";
     getRequest($dblink, $requete2);
@@ -16,6 +18,7 @@ if(isset($_GET['t'],$_GET['id'])){
     $resultat = mysqli_fetch_array($dbResult);
     $previousreaction = $resultat['emoji'];//émoji sur lequel l'utilisateur à cliqué précédemment
     $reactid = $resultat['id'];//id de la réaction
+
     //si l'utilisateur à déjà réagi à ce message, enlève sa réaction précédente des tables réactions et messages
     if ($resultat['id_message'] == $getid && $resultat['id_user'] == $userid){
         $requete3 = "UPDATE messages SET $previousreaction = $previousreaction - 1 WHERE id = $getid";
