@@ -108,7 +108,7 @@
         <div id="leftnav">
             <figure id="logo1"><img src="View/logo_small_icon_only_inverted.png" alt="icon1"></figure>
             <ul id="menu1">
-                <li><a id="hm" href="index.php">Home</a></li>
+                <li><a id="hm" href="../index.php">Home</a></li>
                 <li><a href="MET CE QUE TU VEUX">XXX</a></li>
                 <li><a href="Opinion.html">YYY</a></li>
                 <li><button id="azar">Others</button>
@@ -122,7 +122,7 @@
 
     <br>
 
-    <figure id="logo2"><a href="index.php"> <img src="View/logo_small.png" alt="logo"> </a></figure>
+    <figure id="logo2"><a href="../index.php"> <img src="View/logo_small.png" alt="logo"> </a></figure>
 
     <br>
 
@@ -130,12 +130,12 @@
     <?php
     session_start();
     if (!isset($_SESSION['id'])) {
-        echo '<a href="Connection.php"><button>Se connecter</button></a><br>
-        <a href="Inscription.php"><button>S\'inscrire</button></a><br>';
+        echo '<a href="View/Connection.php"><button>Se connecter</button></a><br>
+        <a href="View/Inscription.php"><button>S\'inscrire</button></a><br>';
     }
     if (isset($_SESSION['id']) and isset($_SESSION['pseudo']) and isset($_SESSION['mail'])) {
-        echo '<a href="profil.php"><button>Mon profil</button></a><br>
-        <a href="déconnection.php"><button>déconnection</button></a><br> ';
+        echo '<a href="View/profil.php"><button>Mon profil</button></a><br>
+        <a href="../controleur/déconnection.php"><button>déconnection</button></a><br> ';
     }
     /*echo $_SESSION['id'];
         echo $_SESSION['pseudo'];
@@ -149,7 +149,7 @@
     </form>
 
 
-    <form action="controlleur_message.php" method="post">
+    <form action="../controleur/controlleur_message.php" method="post">
         <input type="text" name="message" id="message" placeholder="Message..."/>
         <input type="submit" name="envoyer" id ="envoyer" value="Envoyer"/>
     </form>

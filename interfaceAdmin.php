@@ -3,7 +3,7 @@
 ob_start();
 ?>
     Réglage limite minimale et maximale paramétrables
-    <form action="controlleur_set_n.php" method="post">
+    <form action="controleur/controlleur_set_n.php" method="post">
         <input type="number" name="n_min" placeholder="n-min"/>
         <input type="number" name="n_max" placeholder="n-max"/>
         <input type="submit" name="rec_n" value="Enregistrer">

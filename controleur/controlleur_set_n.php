@@ -1,7 +1,6 @@
 <?php
-require_once 'Modele/connectBD.php';
-require_once 'Modele/requestBD.php';
-require_once 'Modele/n_set.php';
+require_once '../Modele/gestionBD.php';
+require_once '../Modele/n_set.php';
 var_dump($_POST);
 
 

@@ -1,18 +1,10 @@
 <?php
-require 'Modele/connectBD.php';
-require 'Modele/requestBD.php';
+require 'gestionBD.php';
 
 $action = $_POST["action"];
 
 //A modifier
 
-
-//conection à la base de données
-/*$dbLink = mysqli_connect('localhost', 'root', '')
-or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-
-mysqli_select_db($dbLink, 'vanestarretest')
-or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));*/
 
 $dbLink = getBD(); // Connexion à la Base de Données
 
@@ -26,7 +18,6 @@ if($action == 'Inscription')
     $pseudo = $_POST["pseudo"];
 
     if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1) {
-        if ($mdp == $mdp2 && strlen($mdp2) >= 8 && $cgu == 1) {
             // Hachage du mot de passe
             $mdp_hache = password_hash($mdp, PASSWORD_DEFAULT);
 
@@ -37,9 +28,9 @@ if($action == 'Inscription')
             getRequest($dbLink, $query);
 
 
-            //header('Location: index.php');
+            header('Location: ../index.php');
             exit();
-        }
+
     }
     if ($mdp != $mdp2 && $cgu == 1 && $action == 'Inscription'){
         //header('Location: error.php');
@@ -84,6 +75,7 @@ if ($action == 'Connection'){
 //Changement Mot de passe
 
 if ($action == 'Changer de mot de passe') {
+    $pseudo = $_POST['pseudo'];
     $newmdp = $_POST['newpass'];
     $newmdp2 = $_POST['newpass2'];
     $mail = $_POST["mail"];
@@ -114,13 +106,7 @@ if ($action == 'changer de pseudo')
         $query = "UPDATE user SET pseudo = '$newpseudo' WHERE id = '$id'";
         $_SESSION['pseudo'] = $newpseudo;
 
-        if (!($dbResult = mysqli_query($dbLink, $query))) {
-            echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
-            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-            // Affiche la requête envoyée.
-            echo 'Requête : ' . $query . '<br/>';
-            exit();
-        }
+        getRequest($dbLink, $query);
     }
 }
 
@@ -128,25 +114,22 @@ if ($action == 'changer de pseudo')
 
 if ($action == 'changer d\'adresse mail'){
     $newmail = $_POST['newmail'];
+    session_start();
+    $id = $_SESSION['id'];
 
     if ($newmail != '' && $newmail != $_SESSION['mail']){
 
         $query = "UPDATE user SET mail = '$newmail' WHERE id = '$id'";
         $_SESSION['mail'] = $newmail;
-        if (!($dbResult = mysqli_query($dbLink, $query))) {
-            echo 'Erreur dans requête<br />'; // Affiche le type d'erreur.
-            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-            // Affiche la requête envoyée.
-            echo 'Requête : ' . $query . '<br/>';
-            exit();
-        }
+
+        getRequest($dbLink, $query);
     }
 }
 
 
 
 //redirige vers la page d'acceuil
-//header('Location: index.php');
+header('Location: ../index.php');
 exit();
 
 ?>

@@ -1,6 +1,6 @@
 <?php
-require_once 'Modele/connectBD.php';
-require_once 'Modele/requestBD.php';
+require_once '../Modele/gestionBD.php';
+
 var_dump($_POST);
 //$recherche = isset($_POST['recherche']) ? $_POST['recherche'] : '';
 $recherche = $_POST['recherche'];

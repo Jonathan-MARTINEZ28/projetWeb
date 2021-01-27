@@ -1,8 +1,7 @@
 <?php
 
-require_once 'Modele/connectBD.php';
-require_once 'Modele/requestBD.php';
-require_once 'Modele/message.php';
+require_once '../Modele/gestionBD.php';
+require_once '../Modele/message.php';
 require_once 'controlleur_set_n.php';
 var_dump($_POST);
 ob_start();
@@ -14,7 +13,9 @@ if ($_POST['envoyer'] == 'Envoyer')
 
     $query = "INSERT INTO messages (contenu) 
         VALUES ('".$_POST['message'] . "')";
-    $dbResult = getRequest($dbLien, $query);
+    getRequest($dbLien,$query);
+
+    $dbResult = mysqli_query($dbLien, $query);
     $dbRow = mysqli_fetch_assoc($dbResult);
 
     //echo $dbRow;
@@ -31,5 +32,5 @@ if ($_POST['envoyer'] == 'Envoyer')
 $contenu = ob_get_clean();
 
 
-require_once 'home.php';
+//require_once 'home.php';
 ?>

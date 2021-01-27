@@ -1,6 +1,6 @@
 <?php
-require 'Modele/connectBD.php';
-require 'Modele/requestBD.php';
+require 'gestionBD.php';
+
 
 //fonction récupérant les messages de la base de donnée
 function getMessage(){
@@ -21,10 +21,10 @@ function affichermessage(){
     while ($resultat = mysqli_fetch_array($dbResult)) {
         $id = $resultat['id'];
         echo $resultat['contenu'] . ' ' . 'β' .$resultat['tag'] . '<br>';
-        echo "<a href='../gestionemoji.php?t=love&id=" . $id . " '><button >Love</button></a>" . $resultat['love'] . ' ' .
-             "<a href='../gestionemoji.php?t=cute&id=" . $id . " '><button >Cute</button></a>" . $resultat['cute'] . ' ' .
-             "<a href='../gestionemoji.php?t=tropstyle&id=" . $id . " '><button >Trop stylé</button></a>" . $resultat['tropstyle'] . ' ' .
-             "<a href='../gestionemoji.php?t=swag&id=" . $id . " '><button >Swag</button></a>" . $resultat['swag'] . '<br><br>';
+        echo "<a href='Modele/gestionemoji.php?t=love&id=" . $id . " '><button >Love</button></a>" . $resultat['love'] . ' ' .
+             "<a href='Modele/gestionemoji.php?t=cute&id=" . $id . " '><button >Cute</button></a>" . $resultat['cute'] . ' ' .
+             "<a href='Modele/gestionemoji.php?t=tropstyle&id=" . $id . " '><button >Trop stylé</button></a>" . $resultat['tropstyle'] . ' ' .
+             "<a href='Modele/gestionemoji.php?t=swag&id=" . $id . " '><button >Swag</button></a>" . $resultat['swag'] . '<br><br>';
 
     }
 }
