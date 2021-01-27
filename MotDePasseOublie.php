@@ -1,5 +1,7 @@
 <?php
 ob_start();
+
+//formulaire de changement de mot de passe
 echo '
     <form action="gestionbd.php" method="post">
         <label for="pseudo">Identifiant:</label><br>

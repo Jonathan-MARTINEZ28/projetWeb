@@ -1,5 +1,7 @@
 <?php
     ob_start();
+
+    //formualire d'inscription
     echo '
     <form action="gestionbd.php" method="post">
         <label for="pseudo">Pseudonyme</label><br>
