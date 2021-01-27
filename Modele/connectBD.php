@@ -1,6 +1,6 @@
 <?php
 
-
+//Permet la connexion à la Base de données et de selectionnner la base
 function getBD(){
     $dbLink = mysqli_connect('localhost', 'root', '')
     or die('Erreur de connexion au serveur : ' . mysqli_connect_error());

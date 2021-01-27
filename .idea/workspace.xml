@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="Réaction aux messages">
+    <list default="true" id="b4033ba3-cc7c-40c5-a0af-b1c0225b06e0" name="Default Changelist" comment="connection et déconnection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotDePasseOublie.php" beforeDir="false" afterPath="$PROJECT_DIR$/MotDePasseOublie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionbd.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestionbd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +12,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../td2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +57,13 @@
       <workItem from="1611418076859" duration="6461000" />
       <workItem from="1611424605862" duration="2720000" />
       <workItem from="1611485143111" duration="1519000" />
-      <workItem from="1611504252417" duration="7774000" />
+      <workItem from="1611504252417" duration="8329000" />
+      <workItem from="1611567603032" duration="4630000" />
+      <workItem from="1611573230186" duration="27000" />
+      <workItem from="1611590599714" duration="3264000" />
+      <workItem from="1611653418121" duration="5844000" />
+      <workItem from="1611665362508" duration="13757000" />
+      <workItem from="1611679801582" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1610554063069</created>
@@ -167,7 +163,49 @@
       <option name="project" value="LOCAL" />
       <updated>1611486666285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="génération n + insertion dans la BD">
+      <created>1611512349045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611512349045</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Barre de recherches (en cours)">
+      <created>1611572848122</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611572848122</updated>
+    </task>
+    <task id="LOCAL-00017" summary="recherche par tag : afficher le contenu recherche en cours">
+      <created>1611593863426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611593863426</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies">
+      <created>1611659294847</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611659294847</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit avant style">
+      <created>1611667914459</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611667914459</updated>
+    </task>
+    <task id="LOCAL-00020" summary="style + correction gestionbd.php redondances variable en $_POST">
+      <created>1611679324322</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611679324322</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +238,12 @@
     <MESSAGE value="Test n + menu" />
     <MESSAGE value="formulaire n-min et n-max" />
     <MESSAGE value="formulaire n-min et n-max (sans BD)" />
-    <option name="LAST_COMMIT_MESSAGE" value="formulaire n-min et n-max (sans BD)" />
+    <MESSAGE value="génération n + insertion dans la BD" />
+    <MESSAGE value="Barre de recherches (en cours)" />
+    <MESSAGE value="recherche par tag : afficher le contenu recherche en cours" />
+    <MESSAGE value="Compter les émojis &quot;love&quot; et générer le message des 10 bitcoins (régler problèmes BD + index non définies" />
+    <MESSAGE value="commit avant style" />
+    <MESSAGE value="style + correction gestionbd.php redondances variable en $_POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="style + correction gestionbd.php redondances variable en $_POST" />
   </component>
 </project>

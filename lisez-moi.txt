@@ -9,4 +9,12 @@ Technologies : Usage de l'HTML pour le contenu du site, couplé avec le CSS afin
 PHP afin de rendre ce site dynamique et MySQL avec phpMyAdmin pour stocker et utiliser les données utiles pour le site
 (pseudo, mot de passe d'un utilisateur, adresse e-mail...)
 Utilisation de GitHub comme système de versionnage, afin de mieux travailler à plusieurs sur un même projet, grâce au
-contrôle de version.
+contrôle de version. Le compte du système de version est le correspondant :
+https://github.com/Jonathan-MARTINEZ28/projetWeb.git
+
+Cryptage du mot de passe : Lors de l'inscription d'un utilisateur, le mot de passe rentré est directement hasché dans
+la Base de Données (table user, attribut password), dès que l'utilisateur appuie sur le bonton 'Inscription'
+et que ce mot de passe respecte les contraintes (mot de passe et confirmation du mot de passe égales,  Conditions
+générales d'utilisation acceptée, mot de passe supérieur à 8 caractères).
+La fonction de hashage utilisé est "password_hash()", avec comme algorithme "PASSWORD_DEFAULT". Le mot de passe pourra
+être ensuite vérifié lors de la connexion grâce à la fonction "password_verify()"
