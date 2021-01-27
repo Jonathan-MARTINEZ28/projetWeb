@@ -26,6 +26,7 @@ if(isset($_GET['t'],$_GET['id'])){
         getRequest($dblink, $requete3);
         getRequest($dblink, $requete4);
     }
+
     //ajoute la réaction de l'utilisateur
     $requete = "INSERT INTO reaction (id_message, id_user, emoji)
                     VALUES ('$getid', '$userid', '$gett')";
@@ -35,6 +36,18 @@ if(isset($_GET['t'],$_GET['id'])){
     if ($gett == 'love' ) {
         $query = "UPDATE messages SET love = love + 1 WHERE id = '$getid'";
         getRequest($dblink, $query);
+
+       /* $query2 = "SELECT n_don FROM messages WHERE id = '$getid'";
+        getRequest($dblink, $query2);
+        $dbResult = mysqli_query($dblink, $query2);
+        $resultat = mysqli_fetch_array($dbResult);
+        $query3 = "SELECT love FROM messages";
+        getRequest($dblink,$query3);
+        $dbResult2 = mysqli_query($dblink, $query3);
+        $resultat2 = mysqli_fetch_array($dbResult2);
+        if ($resultat['n_don'] == $resultat2['love']){
+            header("location: ../View/félicitation.php");
+        }*/
 
     }
 

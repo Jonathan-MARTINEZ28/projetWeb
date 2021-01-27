@@ -13,21 +13,15 @@ if ($_POST['envoyer'] == 'Envoyer')
     $tag = $_POST['tag'];
     $dbLien = getBD();
 
-    $query = "INSERT INTO messages (contenu, tag) 
-        VALUES ('$message', '$tag')";
+    $requete = "SELECT val_min, val_max FROM valeurs_don WHERE id = 1";
+    getRequest($dbLien, $requete);
+    $dbResult = mysqli_query($dbLien, $requete);
+    $resultat = mysqli_fetch_array($dbResult);
+    $Nresult = rand($resultat['val_min'],$resultat['val_max']); // générer valeur n entre n_min et n_max
+
+    $query = "INSERT INTO messages (contenu, tag, n_don) 
+        VALUES ('$message', '$tag', '$Nresult')";
     getRequest($dbLien,$query);
-
-  /*  $dbResult = mysqli_query($dbLien, $query);
-    $dbRow = mysqli_fetch_assoc($dbResult);
-
-    //echo $dbRow;
-
-    $queryNbN = "SELECT nombre_n FROM n_generer";
-    $dbResult = getRequest($dbLien, $queryNbN);
-    $countLove = substr_count($dbRow, 'love');
-    if ($countLove > $queryNbN){
-        echo 'Faites un don de 10 bitcoins à Vanéstarre !';
-    }*/
 
 }
 

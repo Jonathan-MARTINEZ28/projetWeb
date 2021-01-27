@@ -1,27 +1,23 @@
 <?php
 require_once '../Modele/gestionBD.php';
 require_once '../Modele/n_set.php';
-var_dump($_POST);
 
 
 
-if (!empty($_POST)){//
+if ($_POST['rec_n'] == "Enregistrer" && isset($_POST['n_min']) && isset($_POST['n_max'])){
+
     $dbLien = getBD();
 
-    $buttonRec = $_POST['rec_n'];//récupération valeur bouton 'Enregistrer'
     $Nmin = $_POST['n_min'];//récupération valeur n minimale
     $Nmax = $_POST['n_max'];//récupération valeur n maximale
-    $Nresult = rand($Nmin,$Nmax); // générer valeur n entre n_min et n_max
 
     //enregistrer dans la BD
-    $query = "UPDATE messages
-        SET n_don = ('$Nresult')";
+    $query = "UPDATE valeurs_don
+        SET val_min = '$Nmin', val_max = '$Nmax'
+        WHERE id = 1";
     getRequest($dbLien,$query);
-    //$dbRow =
-
 
 }
 
-
-require_once 'interfaceAdmin.php';
+header ("location: ../interfaceAdmin.php");
 

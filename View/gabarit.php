@@ -8,6 +8,7 @@
     * {
         margin: 0;
         padding: 0;
+        text-align: center;
     }
 
     @font-face {
@@ -135,7 +136,7 @@
     }
     if (isset($_SESSION['id']) and isset($_SESSION['pseudo']) and isset($_SESSION['mail'])) {
         echo '<a href="View/profil.php"><button>Mon profil</button></a><br>
-        <a href="../controleur/déconnection.php"><button>déconnection</button></a><br> ';
+        <a href="../controleur/déconnection.php"><button>Déconnection</button></a><br><br> ';
     }
     ?>
 
