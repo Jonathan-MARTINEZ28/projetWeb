@@ -18,10 +18,10 @@ echo '
         
         <input type="checkbox" id="cgu" name="cgu" value="1">
         <label for="cgu">J\'accepte les conditions générales d\'utilisation</label><br>
-        <input type="submit" value="Inscription" name="action" id="action" required/>
+        <input type="submit" value="Inscription" name="action" id="action"/>
     </form>
     
-    <a href="Connection.php"><button>J\'ai déjà un compte</button></a><br>';
+    <a href="Connection.php" id="dejacompte">J\'ai déjà un compte</a><br>';
 
     $contenu = ob_get_clean();
     require 'gabarit.php';

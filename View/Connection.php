@@ -17,7 +17,7 @@ echo '
     </form><br>
     
     <!--lien vers la page de réinitilaisation du de passe -->
-    <a href="MotDePasseOublie.php"><button>J\'ai oublié mon mot de passe </button></a>';
+    <a href="MotDePasseOublie.php" id="passoublie">J\'ai oublié mon mot de passe</a>';
 
 $contenu = ob_get_clean();
 require 'gabarit.php';
