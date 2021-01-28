@@ -4,7 +4,7 @@
     <script src="https://kit.fontawesome.com/4549cae1c4.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <title>Vanestarre</title>
-    <link rel="icon" href="../View/logo_small_icon_only_inverted.png" />
+    <link rel="icon" href="https://zupimages.net/up/21/04/9lrd.png"/>
     <link rel="stylesheet" href="../View/style.css">
 
 </head>
@@ -14,7 +14,7 @@
 
     <br>
 
-    <figure id="logo2"><a href="../index.php"> <img src="../View/logo_small.png" alt="logo"> </a></figure>
+    <figure id="logo2"><a href="../index.php"> <img src="https://zupimages.net/up/21/04/us44.png" alt="logo"> </a></figure>
 
     <br>
 

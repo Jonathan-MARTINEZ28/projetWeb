@@ -21,7 +21,7 @@ echo ' <form action="../Modele/gestionUser.php" method="post">
     </form><br>';
 
 if ($_SESSION['id'] == 1 ){
-    echo '<a href="../interfaceAdmin.php" id="admin">administration du site</a>';
+    echo '<a href="../View/interfaceAdmin.php" id="admin">administration du site</a>';
 }
 
 session_abort();
