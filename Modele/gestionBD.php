@@ -2,10 +2,10 @@
 
 //Permet la connexion à la Base de données et de selectionnner la base
 function getBD(){
-    $dbLink = mysqli_connect('https://node2-fr.n0c.com', 'bxbfphan_Vanestarre', 'Vanestarre28')
+    $dbLink = mysqli_connect('localhost', 'root', '')
     or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
-    mysqli_select_db($dbLink, 'bxbfphan_VANESTARRE')
+    mysqli_select_db($dbLink, 'vanestarretest')
     or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
     //var_dump($dbLink);
     return $dbLink;

@@ -1,20 +1,38 @@
 TeamMLZ Jonathan MARTINEZ; Marlon LECORDIER; Adham ZEKRI
 
-URL :
+URL du site Web : https://vanestarre.go.yj.fr/index.php
 
 Ce projet consite à créer pour Vanéstarre alias Vanessa Maurel, une page Web pour créer son propre réseau social,
 pour l'instant de 5 abonnées.
 
 Technologies : Usage de l'HTML pour le contenu du site, couplé avec le CSS afin de réaliser le style correspondant,
-PHP afin de rendre ce site dynamique et MySQL avec phpMyAdmin pour stocker et utiliser les données utiles pour le site
+PHP afin de rendre ce site dynamique et enfin MySQL avec PhpMyAdmin pour stocker et utiliser les données utiles pour le site
 (pseudo, mot de passe d'un utilisateur, adresse e-mail...)
 Utilisation de GitHub comme système de versionnage, afin de mieux travailler à plusieurs sur un même projet, grâce au
-contrôle de version. Le compte du système de version est le correspondant :
-https://github.com/Jonathan-MARTINEZ28/projetWeb.git
+contrôle de version. Le compte du système de version est le correspondant est donné dans les identifiants de connexion
+ci-dessous.
 
 Cryptage du mot de passe : Lors de l'inscription d'un utilisateur, le mot de passe rentré est directement hasché dans
 la Base de Données (table user, attribut password), dès que l'utilisateur appuie sur le bonton 'Inscription'
-et que ce mot de passe respecte les contraintes (mot de passe et confirmation du mot de passe égales,  Conditions
+et que ce mot de passe respecte les contraintes (mot de passe et confirmation du mot de passe égaux,  Conditions
 générales d'utilisation acceptée, mot de passe supérieur à 8 caractères).
 La fonction de hashage utilisé est "password_hash()", avec comme algorithme "PASSWORD_DEFAULT". Le mot de passe pourra
-être ensuite vérifié lors de la connexion grâce à la fonction "password_verify()"
+être ensuite vérifié lors de la connexion grâce à la fonction "password_verify()".
+
+
+Identifiants de connexion au site Web :
+Administrateur : VANESTARRE
+Adresse e-mail : vanestarre@gmail.com
+Mot de passe : vanestarre
+
+Compte test (membre) : Nolramik
+Adresse e-mail : marlon.lecordier-mauries@etu.univ-amu.fr
+Mot de passe : MarlonLemdp
+
+Identifiant de connexion GitHub :
+https://github.com/Jonathan-MARTINEZ28/projetWeb.git
+
+Identifiant de connexion Hébergeur et Base de données (la connexion à l'hébergeur permet ensuite d'accéder à la BD) :
+Lien URL de l'hébergeur pour se connecter : https://mg.n0c.com/fr/login
+nom d'utilisateur : bxbfphan
+mot de passe : mdp:Ybe8fE5zhyUBJH
